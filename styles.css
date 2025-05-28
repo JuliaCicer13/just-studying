@@ -58,10 +58,18 @@
     font-size: 17px;
 }
 .about-me{
-    background-image: url(./img/DSC_3220.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(to right,
+                rgba(100, 0, 0, 0.5) 100px,
+                rgba(100 0, 0, 0.5) 100px),
+            repeating-linear-gradient(90deg,
+                rgba(225, 0, 0, 0.5) 100px,
+                rgba(255, 0, 0, 0.5) 160px,
+                rgba(0, 0, 0, 0) 100px,
+                rgba(0, 0, 0, 0) 160px),
+            url(../img/imgJPEG/heroImg/redage.png);
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: overlay;
     width: 1500px;
     height: 1300px;
     margin-top: 120px;
