@@ -59,13 +59,13 @@
 }
 .about-me{
     background: linear-gradient(to right,
-                rgba(100, 0, 0, 0.5) 100px,
-                rgba(100 0, 0, 0.5) 100px),
+                rgb(202, 17, 8) 700px,
+                rgba(100 0, 0, 0.5) 800px),
             repeating-linear-gradient(90deg,
-                rgba(225, 0, 0, 0.5) 100px,
-                rgba(255, 0, 0, 0.5) 160px,
-                rgba(0, 0, 0, 0) 100px,
-                rgba(0, 0, 0, 0) 160px),
+                rgba(49, 7, 7, 0.459) 100px,
+                rgba(200, 300, 300, 0.589) 90px,
+                rgba(124, 39, 39, 0.404) 150px,
+                rgba(5, 0, 100, 0.945) 160px),
             url(../img/imgJPEG/heroImg/redage.png);
         background-size: cover;
         background-position: center;
