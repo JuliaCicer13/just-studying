@@ -47,6 +47,9 @@
         </header>
         <main>
             <section class="about-me">
+                <div class="container-button">
+                    <button class="button-server" type="submit">Book consultation</button>
+                </div>
                 <div class="container-main">
                     <div class="container-title">
                         <h1 class="main-title"> Yuliia Tkachenko</h1>
@@ -136,25 +139,56 @@
             </div>
         </div>
            </section>
-          <section>
-            <form action="" class="">
-                <label class="" for="name">Name:</label><br>
-                <input class="" type="text" name="name" id="name">
-                <label for="text">Email:</label><br>
-                <input type="email" name="email" id="text">
-                <label for="messaage">Message</label><br>
-                <textarea class="text" name="message" id="message"></textarea><br><br>
-                <button class="button" type="submit">Send</button>
-            </form>
+          <section class="section-costums">
+          
           </section>
         </main>
         <footer class="footer">
-         <ul class="list-footer">
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-         </ul>
+            <div class="container container-footer">
+                <div class="container-logo">
+                    <img class="photo-logo" src="./img/my-photo.jpg" alt="my-photo" width="50px" height="50px">
+                    <a class="logo-web" href="./index.html">Web<span class="span-studio">Studio</span></a>
+                </div>
+               <div class="container-list-footer">
+                <ul class="list-footer">
+                    <p class="paragraph">Social media</p>
+                    <li class="icon-ecllipse">
+                        <a href="" class="link-footer"><svg class="icon-end" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icon-ecllipse">
+                        <a href="" class="link-footer"><svg class="icon-end" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icon-ecllipse">
+                        <a href="" class="link-footer"><svg class="icon-end" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icon-ecllipse">
+                        <a href="" class="link-footer">
+                            <svg class="icon-end" width="24" height="24">
+                                <use href="./images/icons.svg#icon-in"></use>
+                            </svg>
+                        </a>    
+                     </li>
+                </ul>
+               </div>
+               <div class="container-form-footer">
+                <p class="paragraph">Subscribe</p>
+                  <form class="form-footer" action="">
+                    <label class="label-footer" for="">
+                        <input class="input-footer" type="email" name="email" placeholder="E-mail">
+                    </label>
+                    <button class="button-subscribe" type="submit">Subscribe</button>
+                  </form>
+               </div>
+            </div>
         </footer>
 </body>
 </html>

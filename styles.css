@@ -1,11 +1,10 @@
+
 .container{
-    width: 1500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .header{
-    width: 1500px;
     background-color: rgba(53, 42, 42, 0.829);
 }
 .container-logo{
@@ -90,15 +89,45 @@
                 rgba(124, 39, 39, 0.404) 150px,
                 rgba(5, 0, 100, 0.945) 160px),
             url(../img/imgJPEG/heroImg/redage.png);
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
     width: 1500px;
     height: 1335px;
+    margin: 0 auto;
     margin-top: 120px;
     margin-bottom: 120px;
     margin-top: 10px;
     
+}
+.container-button{
+    position: absolute;
+    top: 460px;
+    left: 890px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-server{
+    height: 65px;
+    width: 170px;
+    background-color: black;
+    border: solid 1px;
+    border-color: black;
+    color: red;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button-server:hover, :focus{
+    background-color: red;
+    color: black;
+    transition-duration: 1s;
+    transition-property: 1s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in;
+    border-color: red;
 }
 .container-main{
   width: 910px;
@@ -134,6 +163,9 @@
 .new-photo{
     margin-left: 230px;
 
+}
+.skills{
+    margin-bottom: 120px;
 }
 .text{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -210,3 +242,78 @@
     padding-top: 10px;
 
 }
+.second-section{
+    width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.skills{
+    width: 1500px;
+     margin: 0 auto;
+    margin-bottom: 120px;
+}
+.footer{
+    width: 1500px;
+    height: 200px;
+    margin: 0 auto;
+ 
+}
+.container-footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+}
+.container-list-footer{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.list-footer{
+    display: flex;
+    list-style: none;
+
+}
+.container-form-footer{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.paragraph{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.form-footer{
+    display: flex;
+}
+.input-footer{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 240px;
+    height: 36px;
+}
+.button-subscribe{
+    width: 130px;
+    height: 40px;
+    margin-left: 50px;
+    color: beige;
+    background-color: red;
+    border: solid 1px;
+    border-color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+
+}
+.button-subscribe:hover, :focus{
+    background-color: black;
+    color: red;
+    transition-duration: 1s;
+    transition-property: 1s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+}
+
