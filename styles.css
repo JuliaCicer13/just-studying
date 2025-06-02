@@ -323,6 +323,9 @@
 .icon{
   stroke: rgb(116, 240, 223);
 }
+.icon:hover {
+    stroke: rgb(255, 208, 0);
+}
 .icon-cat{
    width: 100%;
    height: 100%;
@@ -356,4 +359,15 @@
 
 .icon-cat-wrapper:hover .eye{
     background-color: rgb(255, 208, 0);
+}
+
+/* Portfolio */
+
+.container-photos{
+    list-style: none;
+    width: 1500px;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }
