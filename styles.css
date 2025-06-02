@@ -1,5 +1,7 @@
 
 .container{
+    width: 1500px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -253,7 +255,6 @@
     margin-bottom: 120px;
 }
 .footer{
-    width: 1500px;
     height: 200px;
     margin: 0 auto;
  
@@ -362,12 +363,34 @@
 }
 
 /* Portfolio */
-
 .container-photos{
+    width: 1600px;
     list-style: none;
-    width: 1500px;
     height: auto;
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    row-gap: 24px;
     flex-wrap: wrap;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.list-photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;  
+}
+
+.photo-wrap{
+    width: calc((100% - 48px) / 3);
+}
+
+.footer{
+    background-color: rgb(37, 34, 34);
 }
