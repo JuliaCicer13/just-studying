@@ -420,7 +420,6 @@
     height: 80%;
     align-items: center;
     margin: 0 auto;
-    background-color: rgb(255, 0, 0);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
@@ -432,6 +431,15 @@
     opacity: 0;
 }
 .modal-window{
+    background: linear-gradient(to right,
+                rgb(194, 14, 5) 200px,
+                rgba(170 0, 0, 0.5) 500px),
+            repeating-linear-gradient(90deg,
+                rgba(99, 12, 12, 0.74) 100px,
+                rgba(200, 300, 300, 0.589) 90px,
+                rgba(0, 0, 0, 0.877) 150px,
+                rgba(500, 0, 100, 0.945) 160px),
+            url(../img/imgJPEG/heroImg/redage.png);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -443,4 +451,38 @@
             0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-close{
+    position: absolute;
+    top: 3px;
+    left: 370px;
+    right: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.button-close:hover, :focus{
+    background-color: crimson;
+}
+
+
+.icon-close{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: black;
+
+}
+.comment{
+    margin-top: 43px;
+    margin-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }

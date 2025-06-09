@@ -209,10 +209,48 @@
         </footer>
         <div class="container-window is-hidden" data-modal>
             <div class="modal-window">
-                <button class="button-close" type="button" data-modal-close></button>
-                <p>Please leave your contact and we will call to you!</p>
-                <form action="">
-
+                <button class="button-close" type="button" data-modal-close>
+                    <svg class="icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black"
+                        stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />       
+                    </svg>
+                </button>
+                <p class="comment">Please leave your contact and we will call to you!</p>
+                <form>
+                    <div class="container-input-first">
+                        <label for="user-name">Name</label>
+                        <div class="container-input">
+                            <input 
+                                 class="input"
+                                 id="user-name"
+                                 name="user-name"
+                                 type="text" 
+                            />
+                        </div>
+                    </div>
+                    <div class="container-input-two">
+                        <label for="user-phone">Phone</label>
+                        <div class="container-input">
+                           <input 
+                                class="input"
+                                id="user-phone"
+                                name="user-name"
+                                type="text" 
+                            />
+                      </div>
+                    </div>
+                    <div class="container-input-two"> 
+                        <label for="user-email">Email</label>
+                        <div class="container-input">
+                            <input 
+                                 class="input" 
+                                 id="user-email" 
+                                 name="user-name" 
+                                 type="text"
+                             />
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
