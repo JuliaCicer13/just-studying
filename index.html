@@ -218,39 +218,50 @@
                 </button>
                 <p class="comment">Please leave your contact and we will call to you!</p>
                 <form>
-                    <div class="container-input-first">
-                        <label for="user-name">Name</label>
-                        <div class="container-input">
-                            <input 
-                                 class="input"
-                                 id="user-name"
-                                 name="user-name"
-                                 type="text" 
-                            />
+                    <div class="container-form">
+                        <div class="container-input-first">
+                            <label class="label" for="user-name">Name</label>
+                            <div class="container-input">
+                                <input class="input" id="user-name" name="user-name" type="text" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="container-input-two">
-                        <label for="user-phone">Phone</label>
-                        <div class="container-input">
-                           <input 
-                                class="input"
-                                id="user-phone"
-                                name="user-name"
-                                type="text" 
-                            />
-                      </div>
-                    </div>
-                    <div class="container-input-two"> 
-                        <label for="user-email">Email</label>
-                        <div class="container-input">
-                            <input 
-                                 class="input" 
-                                 id="user-email" 
-                                 name="user-name" 
-                                 type="text"
-                             />
+                        <div class="container-input-two">
+                            <label class="label"  for="user-phone">Phone</label>
+                            <div class="container-input">
+                                <input class="input" id="user-phone" name="user-name" type="text" />
+                            </div>
                         </div>
+                        
+                        <div class="container-input-two">
+                            <label  class="label" for="user-email">Email</label>
+                            <div class="container-input">
+                                <input class="input" id="user-email" name="user-name" type="text" />
+                            </div>
+                            </div>
                     </div>
+                  
+                    <div class="container-textarea">
+                        <label class="label-textarea" for="user-comment">Comments</label>
+                      <textarea 
+                           class="textarea" 
+                           name="user-comments" 
+                           id="user-comments" 
+                           placeholder="Text input">
+                      </textarea>
+                    </div>
+                    <div class="container-checkbox">
+                        <input type="text"
+                          class="input-checkbox"
+                          type="checkbox"
+                          value="true"
+                          name="user-privace"
+                        />
+                    </div>
+                    <label class="lable-checkbox" for="user-privacy">
+                        I accept the terms and conditions of the
+                        <a class="privacy-police" href="">Privacy Policy</a>
+                    </label>
+                    <button class="button-end">Send</button>
                 </form>
             </div>
         </div>
