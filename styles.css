@@ -1,7 +1,7 @@
 
-/* mobile-first */
-@media (min-width: 600px){
-/* basic header */
+/* mobile-first / header : */
+
+@media (min-width: 320px){
     .container {
         margin: 0 auto;
         display: flex;
@@ -28,8 +28,8 @@
         position: relative;
         text-decoration: none;
         color: rgb(102, 32, 32);
-        font-weight: 800;
-        font-size: 19px;
+        font-weight: 600;
+        font-size: 16px;
         margin-left: 50px;
         padding-top: 50px;
     }
@@ -45,17 +45,17 @@
 
     .span-studio {
         color: azure;
-        font-weight: 800;
+        font-weight: 400;
     }
 
     .list-header {
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         list-style: none;
         gap: 16px;
     }
-
+/* 
     .nav-link {
         text-decoration: none;
         font-weight: 800;
@@ -70,7 +70,7 @@
         transition-property: 1s;
         transition-delay: 0.1s;
         transition-timing-function: ease-in;
-    }
+    } */
 
     .list-adress {
         display: block;
@@ -83,8 +83,8 @@
     .link-adress {
         text-decoration: none;
         color: rgb(253, 253, 253);
-        font-weight: 800;
-        font-size: 17px;
+        font-weight: 600;
+        font-size: 16px;
     }
 
     .link-adress:hover,
@@ -96,7 +96,202 @@
         transition-timing-function: ease-in;
     }
 }
+/* laptop version */
 
+@media (min-width: 600px) {
+    .container {
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    
+        .header {
+            background-color: rgba(53, 42, 42, 0.829);
+        }
+    
+        .container-logo {
+            margin-left: 16px;
+            margin-bottom: 20px;
+        }
+    
+        .photo-logo {
+            position: absolute;
+            border: solid 1px;
+            border-radius: 50px;
+        }
+    
+        .logo-web {
+            position: relative;
+            text-decoration: none;
+            color: rgb(102, 32, 32);
+            font-weight: 700;
+            font-size: 16px;
+            margin-left: 50px;
+            padding-top: 50px;
+        }
+    
+        .logo-web:hover,
+        :focus {
+            color: red;
+            transition-duration: 1s;
+            transition-property: 1s;
+            transition-delay: 0.1s;
+            transition-timing-function: ease-in;
+        }
+    
+        .span-studio {
+            color: azure;
+            font-weight: 700;
+        }
+    
+        .list-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            gap: 10px;
+        }
+    
+        .nav-link {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            color: rgb(102, 32, 32);
+        }
+    
+        .nav-link:hover,
+        :focus {
+            color: red;
+            transition-duration: 1s;
+            transition-property: 1s;
+            transition-delay: 0.1s;
+            transition-timing-function: ease-in;
+        } 
+    
+        .list-adress {
+            display: block;
+            justify-content: end;
+            align-items: center;
+            list-style: none;
+            margin-right: 16px;
+        }
+    
+        .link-adress {
+            text-decoration: none;
+            color: rgb(253, 253, 253);
+            font-weight: 700;
+            font-size: 16px;
+        }
+    
+        .link-adress:hover,
+        :focus {
+            color: red;
+            transition-duration: 1s;
+            transition-property: 1s;
+            transition-delay: 0.1s;
+            transition-timing-function: ease-in;
+        }
+}
+@media(min-width: 1024px){
+    .container {
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    
+        .header {
+            background-color: rgba(53, 42, 42, 0.829);
+        }
+    
+        .container-logo {
+            margin-left: 16px;
+            margin-bottom: 20px;
+        }
+    
+        .photo-logo {
+            position: absolute;
+            border: solid 1px;
+            border-radius: 50px;
+        }
+    
+        .logo-web {
+            position: relative;
+            text-decoration: none;
+            color: rgb(102, 32, 32);
+            font-weight: 800;
+            font-size: 18px;
+            margin-left: 50px;
+            padding-top: 50px;
+        }
+    
+        .logo-web:hover,
+        :focus {
+            color: red;
+            transition-duration: 1s;
+            transition-property: 1s;
+            transition-delay: 0.1s;
+            transition-timing-function: ease-in;
+        }
+    
+        .span-studio {
+            color: azure;
+            font-weight: 800;
+        }
+    
+        .list-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            gap: 16px;
+        }
+    
+        .nav-link {
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 18px;
+            color: rgb(102, 32, 32);
+        }
+    
+        .nav-link:hover,
+        :focus {
+            color: red;
+            transition-duration: 1s;
+            transition-property: 1s;
+            transition-delay: 0.1s;
+            transition-timing-function: ease-in;
+        }
+    
+        .list-adress {
+            display: block;
+            justify-content: end;
+            align-items: center;
+            list-style: none;
+            margin-right: 16px;
+        }
+    
+        .link-adress {
+            text-decoration: none;
+            color: rgb(253, 253, 253);
+            font-weight: 700;
+            font-size: 18px;
+        }
+    
+        .link-adress:hover,
+        :focus {
+            color: red;
+            transition-duration: 1s;
+            transition-property: 1s;
+            transition-delay: 0.1s;
+            transition-timing-function: ease-in;
+        }
+}
+/* ---------------------------------------------------------------------------- */
+
+/* About me : for mobile first: */
 
 .about-me{
     background: linear-gradient(to right,
