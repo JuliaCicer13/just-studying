@@ -1,86 +1,103 @@
 
-.container{
-    width: 1500px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.header{
-    background-color: rgba(53, 42, 42, 0.829);
-}
-.container-logo{
-    margin-left: 16px;
-    margin-bottom: 20px;
-}
+/* mobile-first */
+@media (min-width: 600px){
+/* basic header */
+    .container {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 
-.photo-logo{
-    position: absolute;
-    border: solid 1px;
-    border-radius: 50px;
-}
+    .header {
+        background-color: rgba(53, 42, 42, 0.829);
+    }
 
-.logo-web{
-    position: relative;
-    text-decoration: none;
-    color: rgb(102, 32, 32);
-    font-weight: 800;
-    font-size: 19px;
-    margin-left: 50px;
-    padding-top: 50px;
-}
-.logo-web:hover, :focus{
-    color: red;
-    transition-duration: 1s;
-    transition-property: 1s;
-    transition-delay: 0.1s;
-    transition-timing-function: ease-in;
-}
-.span-studio{
-    color: azure;
-    font-weight: 800;
-}
+    .container-logo {
+        margin-left: 16px;
+        margin-bottom: 20px;
+    }
 
-.list-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    gap: 16px;
-}
-.nav-link{
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 17px;
-    color: rgb(102, 32, 32);
-}
-.nav-link:hover, :focus{
+    .photo-logo {
+        position: absolute;
+        border: solid 1px;
+        border-radius: 50px;
+    }
+
+    .logo-web {
+        position: relative;
+        text-decoration: none;
+        color: rgb(102, 32, 32);
+        font-weight: 800;
+        font-size: 19px;
+        margin-left: 50px;
+        padding-top: 50px;
+    }
+
+    .logo-web:hover,
+    :focus {
         color: red;
         transition-duration: 1s;
         transition-property: 1s;
         transition-delay: 0.1s;
         transition-timing-function: ease-in;
-}
-.list-adress{
-    display: block;
-    justify-content: end;
-    align-items: center;
-    list-style: none;
-    margin-right: 16px;
-}
-.link-adress{
-    text-decoration: none;
-    color: rgb(253, 253, 253);
-    font-weight: 800;
-    font-size: 17px;
-}
-.link-adress:hover, :focus {
+    }
+
+    .span-studio {
+        color: azure;
+        font-weight: 800;
+    }
+
+    .list-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 16px;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-weight: 800;
+        font-size: 17px;
+        color: rgb(102, 32, 32);
+    }
+
+    .nav-link:hover,
+    :focus {
         color: red;
         transition-duration: 1s;
         transition-property: 1s;
         transition-delay: 0.1s;
         transition-timing-function: ease-in;
+    }
+
+    .list-adress {
+        display: block;
+        justify-content: end;
+        align-items: center;
+        list-style: none;
+        margin-right: 16px;
+    }
+
+    .link-adress {
+        text-decoration: none;
+        color: rgb(253, 253, 253);
+        font-weight: 800;
+        font-size: 17px;
+    }
+
+    .link-adress:hover,
+    :focus {
+        color: red;
+        transition-duration: 1s;
+        transition-property: 1s;
+        transition-delay: 0.1s;
+        transition-timing-function: ease-in;
+    }
 }
+
+
 .about-me{
     background: linear-gradient(to right,
                 rgb(202, 17, 8) 700px,
