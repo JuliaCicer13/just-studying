@@ -1584,6 +1584,9 @@
    border-radius: 4px;
    border-color: red;
 }
+
+
+/* modal window */
 .container-window{
     position: fixed;
     top: 50px;
