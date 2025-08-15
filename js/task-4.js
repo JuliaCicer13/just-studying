@@ -1,9 +1,23 @@
 
 function getNumbers(min, max) {
-    let i = min;
-  while(i < max) {
+  let result = [];
+    for(let i = min; i <= max; i++) {
     if (i % 2 === 0) {
-   return console.log(i);
+        result.push(i);
     }
   }  
+  return result;
 }
+console.log(getNumbers(1,10))
+
+
+function isAdult(age){
+  if (age >= 18) {
+    return true;
+  } else {
+    alert("You are not adult");
+    return false;
+  }
+}
+console.log(isAdult(20));
+console.log(isAdult(14));
