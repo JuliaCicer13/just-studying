@@ -31,41 +31,59 @@ function checkLogin(array) {
 //  .............................
 
 
-function caclculateAverage(arg){
-    let num = 0;
-    for ( i = num; i >= num; i++) {
-      if (arg === Number()) {
-      num += arg;
+function caclculateAverage(...args){
+    let sum = 0;
+    let count = 0;
+    for ( i = num; i <= args.length; i++) {
+      if (typeof args[i] === "number" && !isNaN(args[i])) {
+      sum += args[i];
+      count ++;
     }  
-   return num / arg;
     }
+    if (count === 0) {
+        return "Not valid numbers provided!"
+    }
+    return sum / args;
 }
-console.log(num)
+
 
 // .............................................
 
-let newArray = [];
-
-function calculateNum() {
-for (let array of newArray ) {
-    
-}
-
-}
 
 const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
 
 // ..........................
 
 function findSmallestNumber(numbers) {
-    for (i = numbers; i >= numbers; i++){
-         if (numbers === Array()) {
-        return Math.min(numbers)
+
+         if (Array.isArray(numbers)) {
+        return Math.min(...numbers)
     } else {
        alert ("Not a numbers");
     }
-
+    
     }
-}
 const numbers = [2, 5, 35, 56, 12, 24, 7, 80, 3];
-console.log(numbers);
+console.log(findSmallestNumber(numbers));
+console.log(findSmallestNumber("hello"))
+
+// ...........................
+
+
+ const salaries = {
+    Mango: 100,
+    Poly: 160,
+    Ajax: 1470,
+  };
+
+
+  let sum = 0;
+
+  for (const key in salaries) {
+    sum += salaries[key] ;
+    if (salaries === 0) {
+    return sum = 0;
+    }
+  }
+
+//   ........................
