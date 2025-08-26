@@ -51,12 +51,13 @@
     <main>
         <section class="section-photos">
             <div class="container container-photos">
+                
                 <ul class="list-buttons">
-                    <li class="button-wrap"><button class="button-portfolio" type="button">All</button></li>
-                    <li class="button-wrap"><button class="button-portfolio" type="button">Web Site</button></li>
-                    <li class="button-wrap"><button class="button-portfolio" type="button">My Story</button></li>
-                    <li class="button-wrap"><button class="button-portfolio" type="button">My office</button></li>
-                    <li class="button-wrap"><button class="button-portfolio" type="button">My work</button></li>
+                    <li class="button-wrap" data-category="all"><button class="button-portfolio" data-filter="all" type="button">All</button></li>
+                    <li class="button-wrap" data-category="web"><button class="button-portfolio" data-filter="web" type="button">Web Site</button></li>
+                    <li class="button-wrap" data-category="story"><button class="button-portfolio" data-filter="story" type="button">My Story</button></li>
+                    <li class="button-wrap" data-category="office"><button class="button-portfolio" data-filter="office" type="button">My office</button></li>
+                    <li class="button-wrap" data-category="work"><button class="button-portfolio" data-filter="work" type="button">My work</button></li>
                     </ul>
                 <ul class="list-photos">
                     <li class="photo-wrap"><img class="img-of-mine" src="./img/photo_2025-05-23_23-55-57.jpg" alt="photo" width="500" height="700"></li>
@@ -149,6 +150,7 @@
             </div>
         </div>
     </footer>
+    <script type="module" src="./js/portfolio.js"></script>
 </body>
 
 </html>
